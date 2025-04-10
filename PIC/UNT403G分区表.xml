@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Partition_Info ProgrammerFile="">
+<Part Sel="1" PartitionName="fastboot" FlashType="emmc" FileSystem="none" Start="0" Length="1M" SelectFile="H:\ZJ-403G\fastboot.img"/>
+<Part Sel="1" PartitionName="bootargs" FlashType="emmc" FileSystem="none" Start="1M" Length="512K" SelectFile="H:\ZJ-403G\bootargs.img"/>
+<Part Sel="1" PartitionName="bootargsbak" FlashType="emmc" FileSystem="none" Start="1536K" Length="512K" SelectFile="H:\ZJ-403G\bootargsbak.img"/>
+<Part Sel="0" PartitionName="stbid" FlashType="emmc" FileSystem="none" Start="2M" Length="10M" SelectFile="H:\ZJ-403G\stbid.img"/>
+<Part Sel="0" PartitionName="loaderdb" FlashType="emmc" FileSystem="none" Start="12M" Length="1M" SelectFile="H:\ZJ-403G\loaderdb.img"/>
+<Part Sel="1" PartitionName="recovery" FlashType="emmc" FileSystem="none" Start="13M" Length="20M" SelectFile="H:\ZJ-403G\recovery.img"/>
+<Part Sel="0" PartitionName="deviceinfo" FlashType="emmc" FileSystem="none" Start="33M" Length="2M" SelectFile="H:\ZJ-403G\deviceinfo.img"/>
+<Part Sel="0" PartitionName="securestore" FlashType="emmc" FileSystem="none" Start="35M" Length="8M" SelectFile="H:\ZJ-403G\securestore.img"/>
+<Part Sel="0" PartitionName="atf" FlashType="emmc" FileSystem="none" Start="43M" Length="2M" SelectFile="H:\ZJ-403G\atf.img"/>
+<Part Sel="1" PartitionName="baseparam" FlashType="emmc" FileSystem="none" Start="45M" Length="8M" SelectFile="H:\ZJ-403G\baseparam.img"/>
+<Part Sel="1" PartitionName="pqparam" FlashType="emmc" FileSystem="none" Start="53M" Length="8M" SelectFile="H:\ZJ-403G\pqparam.img"/>
+<Part Sel="1" PartitionName="dtbo" FlashType="emmc" FileSystem="none" Start="61M" Length="2M" SelectFile="H:\ZJ-403G\dtbo.img"/>
+<Part Sel="0" PartitionName="logo" FlashType="emmc" FileSystem="none" Start="63M" Length="10M" SelectFile="H:\ZJ-403G\logo.img"/>
+<Part Sel="0" PartitionName="logobak" FlashType="emmc" FileSystem="none" Start="73M" Length="10M" SelectFile="H:\ZJ-403G\logobak.img"/>
+<Part Sel="0" PartitionName="fastplay" FlashType="emmc" FileSystem="none" Start="83M" Length="20M" SelectFile="H:\ZJ-403G\fastplay.img"/>
+<Part Sel="0" PartitionName="fastplaybak" FlashType="emmc" FileSystem="none" Start="103M" Length="20M" SelectFile="H:\ZJ-403G\fastplaybak.img"/>
+<Part Sel="1" PartitionName="recoverybak" FlashType="emmc" FileSystem="none" Start="123M" Length="20M" SelectFile="H:\ZJ-403G\recoverybak.img"/>
+<Part Sel="1" PartitionName="boot" FlashType="emmc" FileSystem="none" Start="143M" Length="60M" SelectFile="H:\ZJ-403G\boot.img"/>
+<Part Sel="1" PartitionName="misc" FlashType="emmc" FileSystem="none" Start="203M" Length="20M" SelectFile="H:\ZJ-403G\misc.img"/>
+<Part Sel="0" PartitionName="trustedcore" FlashType="emmc" FileSystem="none" Start="223M" Length="20M" SelectFile="H:\ZJ-403G\trustedcore.img"/>
+<Part Sel="1" PartitionName="system" FlashType="emmc" FileSystem="ext3/4" Start="243M" Length="1300M" SelectFile="H:\ZJ-403G\system.img"/>
+<Part Sel="1" PartitionName="cache" FlashType="emmc" FileSystem="ext3/4" Start="1543M" Length="896M" SelectFile="H:\ZJ-403G\cache.img"/>
+<Part Sel="1" PartitionName="vendor" FlashType="emmc" FileSystem="ext3/4" Start="2439M" Length="300M" SelectFile="H:\ZJ-403G\vendor.img"/>
+<Part Sel="0" PartitionName="backup" FlashType="emmc" FileSystem="ext3/4" Start="2739M" Length="900M" SelectFile="H:\ZJ-403G\backup.img"/>
+<Part Sel="0" PartitionName="private" FlashType="emmc" FileSystem="ext3/4" Start="3639M" Length="80M" SelectFile="H:\ZJ-403G\private.img"/>
+<Part Sel="0" PartitionName="ctc" FlashType="emmc" FileSystem="ext3/4" Start="3719M" Length="256M" SelectFile="H:\ZJ-403G\ctc.img"/>
+<Part Sel="0" PartitionName="keydata" FlashType="emmc" FileSystem="ext3/4" Start="3975M" Length="50M" SelectFile="H:\ZJ-403G\keydata.img"/>
+<Part Sel="1" PartitionName="userdata" FlashType="emmc" FileSystem="ext3/4" Start="4025M" Length="3375M" SelectFile="H:\ZJ-403G\userdata.img"/>
+</Partition_Info>
