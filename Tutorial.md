@@ -90,6 +90,10 @@ eMMC: read timeout.
 ### 替换logo.img
 dd if=/mnt/sda1/logo.img of=/dev/block/mmcblk0p7
 
+### 修改遥控器按键
+找到system/etc/combinationKeys.xml，编辑。修改添加key、PackageName、ActivityName的值，分别对应遥控器的遥控码、需要启动的apk的包名、启动类名。Key值：如果不清楚，可以通过ButtonMapper.apk中添加自定义按键获取。
+![图片](https://b.gx86.cn/zb_users/upload/2025/02/202502051738734538686493.png)
+
 ### 参考链接
 - *[https://www.znds.com/tv-1258035-1-1.html](https://www.znds.com/tv-1258035-1-1.html)
 - [https://www.znds.com/forum.php?mod=viewthread&tid=1249681](https://www.znds.com/forum.php?mod=viewthread&tid=1249681)  
